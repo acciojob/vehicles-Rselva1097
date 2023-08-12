@@ -8,6 +8,26 @@ public class F1 extends Car {
 
     }
 
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public boolean isManual() {
+        return isManual;
+    }
+
+    @Override
+    public void setManual(boolean manual) {
+        isManual = manual;
+    }
+
     public F1(String name, boolean isManual) {
 //        super(name,isManual);
         //Use arbitrary values for parameters which are not mentioned
